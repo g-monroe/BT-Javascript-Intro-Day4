@@ -1,0 +1,15 @@
+:root {
+    --input-total-height: 75px;
+}
+
+.chat-shell {
+    position: relative;
+
+    background-color: #282c34;
+    height: 100%;
+    width: 100%;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
