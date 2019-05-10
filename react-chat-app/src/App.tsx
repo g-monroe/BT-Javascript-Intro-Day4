@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChatShell } from './chat/ChatShell';
+import ChatShell from './chat/ChatShell';
 
 import './App.css';
 

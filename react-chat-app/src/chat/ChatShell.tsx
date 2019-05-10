@@ -1,9 +1,6 @@
 import React from 'react';
 import { Chat } from '../dtos/chat';
-
 import io from "socket.io-client";
-
-import './ChatShell.css';
 import { ChatEvents } from '../dtos/chatEvents';
 
 export interface IChatShellProps {
@@ -13,7 +10,7 @@ export interface IChatShellState {
 
 }
 
-export class ChatShell extends React.PureComponent<IChatShellProps, IChatShellState> {
+export default class ChatShell extends React.PureComponent<IChatShellProps, IChatShellState> {
     static defaultProps = {
 
     }
@@ -51,7 +48,7 @@ export class ChatShell extends React.PureComponent<IChatShellProps, IChatShellSt
     render() {
 
         return (
-            <div className="chat-shell">
+            <div>
                 Chat Shell
             </div>
         );
