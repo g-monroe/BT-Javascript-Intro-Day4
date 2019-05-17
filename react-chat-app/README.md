@@ -18,10 +18,6 @@ Feel free to style it however you want, using css files.
 Follow the example for the `ChatShell.tsx` and `ChatShell.css` on how to set them up.
 However, it does not have to be pretty. 
 
-- *DO NOT* use bootstrap 
-
-- *DO NOT* use ant design. This will be taught in a later class. 
-
 ## Example
 ### Login Screen
 ![username-interface](./screenshots/login-screen.PNG)
